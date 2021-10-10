@@ -1,0 +1,1372 @@
+[gd_scene load_steps=20 format=2]
+
+[ext_resource path="res://Chompman.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Sprite-0001.png" type="Texture" id=2]
+[ext_resource path="res://Capsule.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Ghost.tscn" type="PackedScene" id=4]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=4]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=5]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=6]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=7]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=8]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=9]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=10]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=11]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=12]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=13]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=14]
+points = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
+
+[sub_resource type="TileSet" id=15]
+0/name = "Sprite-0001.png 0"
+0/texture = ExtResource( 2 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 224, 64 )
+0/tile_mode = 1
+0/autotile/bitmask_mode = 1
+0/autotile/bitmask_flags = [ Vector2( 0, 0 ), 176, Vector2( 0, 1 ), 50, Vector2( 1, 0 ), 152, Vector2( 1, 1 ), 26, Vector2( 2, 0 ), 48, Vector2( 2, 1 ), 18, Vector2( 3, 0 ), 184, Vector2( 3, 1 ), 58, Vector2( 4, 0 ), 24, Vector2( 4, 1 ), 144, Vector2( 5, 0 ), 178, Vector2( 5, 1 ), 56, Vector2( 6, 0 ), 154, Vector2( 6, 1 ), 146 ]
+0/autotile/icon_coordinate = Vector2( 0, 0 )
+0/autotile/tile_size = Vector2( 32, 32 )
+0/autotile/spacing = 0
+0/autotile/occluder_map = [  ]
+0/autotile/navpoly_map = [  ]
+0/autotile/priority_map = [  ]
+0/autotile/z_index_map = [  ]
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape = SubResource( 1 )
+0/shape_one_way = false
+0/shape_one_way_margin = 1.0
+0/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 1, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 2, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 3 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 3, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 4 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 4, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 5 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 5, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 6 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 6, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 7 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 0, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 8 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 1, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 9 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 2, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 10 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 3, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 11 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 4, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 12 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 5, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 13 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+}, {
+"autotile_coord": Vector2( 6, 1 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+0/z_index = 0
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+position = Vector2( -16, -16 )
+tile_set = SubResource( 15 )
+cell_size = Vector2( 32, 32 )
+show_collision = true
+format = 1
+tile_data = PoolIntArray( 0, 0, 0, 1, 0, 65541, 2, 0, 65541, 3, 0, 65541, 4, 0, 65541, 5, 0, 65541, 6, 0, 65541, 7, 0, 65541, 8, 0, 65541, 9, 0, 65541, 10, 0, 65541, 11, 0, 65541, 12, 0, 65541, 13, 0, 65541, 14, 0, 65541, 15, 0, 65541, 16, 0, 65541, 17, 0, 65541, 18, 0, 65541, 19, 0, 65541, 20, 0, 65541, 21, 0, 65541, 22, 0, 65541, 23, 0, 65541, 24, 0, 65541, 25, 0, 65541, 26, 0, 65541, 27, 0, 65541, 28, 0, 65541, 29, 0, 65541, 30, 0, 65541, 31, 0, 1, 65536, 0, 65542, 65567, 0, 65542, 131072, 0, 65542, 131074, 0, 0, 131075, 0, 65541, 131076, 0, 65541, 131077, 0, 65541, 131078, 0, 65541, 131079, 0, 65541, 131080, 0, 65541, 131081, 0, 1, 131083, 0, 0, 131084, 0, 65541, 131085, 0, 65541, 131086, 0, 65541, 131087, 0, 65541, 131088, 0, 65541, 131089, 0, 1, 131091, 0, 0, 131092, 0, 65541, 131093, 0, 65541, 131094, 0, 65541, 131095, 0, 65541, 131096, 0, 65541, 131097, 0, 65541, 131098, 0, 65541, 131099, 0, 65541, 131100, 0, 65541, 131101, 0, 4, 131103, 0, 65542, 196608, 0, 65542, 196610, 0, 65542, 196617, 0, 65542, 196619, 0, 65542, 196625, 0, 65542, 196627, 0, 65542, 196639, 0, 65542, 262144, 0, 65542, 262146, 0, 65538, 262148, 0, 2, 262149, 0, 4, 262151, 0, 0, 262152, 0, 65541, 262153, 0, 65537, 262155, 0, 65538, 262157, 0, 2, 262158, 0, 65541, 262159, 0, 4, 262161, 0, 65538, 262163, 0, 65538, 262165, 0, 2, 262166, 0, 65541, 262167, 0, 65541, 262168, 0, 65541, 262169, 0, 65541, 262170, 0, 65541, 262171, 0, 65541, 262172, 0, 65541, 262173, 0, 1, 262175, 0, 65542, 327680, 0, 65542, 327687, 0, 65542, 327709, 0, 65542, 327711, 0, 65542, 393216, 0, 65542, 393218, 0, 2, 393219, 0, 65541, 393220, 0, 65541, 393221, 0, 4, 393223, 0, 65542, 393225, 0, 2, 393226, 0, 65541, 393227, 0, 65541, 393228, 0, 65541, 393229, 0, 65541, 393230, 0, 65541, 393231, 0, 65541, 393232, 0, 65541, 393233, 0, 65541, 393234, 0, 65541, 393235, 0, 65541, 393236, 0, 65541, 393237, 0, 1, 393239, 0, 65540, 393241, 0, 65540, 393243, 0, 2, 393244, 0, 65541, 393245, 0, 6, 393247, 0, 65542, 458752, 0, 65542, 458759, 0, 65542, 458773, 0, 65542, 458775, 0, 65542, 458777, 0, 65542, 458781, 0, 65542, 458783, 0, 65542, 524288, 0, 65542, 524290, 0, 0, 524291, 0, 65541, 524292, 0, 65541, 524293, 0, 1, 524295, 0, 65542, 524297, 0, 65540, 524299, 0, 0, 524300, 0, 65541, 524301, 0, 65541, 524302, 0, 65541, 524303, 0, 3, 524304, 0, 65541, 524305, 0, 65541, 524306, 0, 65541, 524307, 0, 4, 524309, 0, 65542, 524311, 0, 65538, 524313, 0, 5, 524314, 0, 65541, 524315, 0, 4, 524317, 0, 65542, 524319, 0, 65542, 589824, 0, 65542, 589826, 0, 65538, 589829, 0, 65538, 589831, 0, 65538, 589833, 0, 65542, 589835, 0, 65542, 589839, 0, 65538, 589845, 0, 65542, 589849, 0, 65542, 589853, 0, 65542, 589855, 0, 65542, 655360, 0, 65542, 655369, 0, 65542, 655371, 0, 65542, 655373, 0, 65540, 655377, 0, 65540, 655379, 0, 65540, 655381, 0, 5, 655382, 0, 65541, 655383, 0, 65541, 655384, 0, 65541, 655385, 0, 65537, 655387, 0, 2, 655388, 0, 65541, 655389, 0, 65537, 655391, 0, 65542, 720896, 0, 65542, 720898, 0, 2, 720899, 0, 65541, 720900, 0, 65541, 720901, 0, 4, 720903, 0, 2, 720904, 0, 65541, 720905, 0, 6, 720907, 0, 65538, 720909, 0, 65536, 720910, 0, 65541, 720911, 0, 65541, 720912, 0, 65541, 720913, 0, 65539, 720914, 0, 65541, 720915, 0, 65537, 720917, 0, 65542, 720927, 0, 65542, 786432, 0, 65542, 786441, 0, 65542, 786453, 0, 65542, 786455, 0, 65540, 786457, 0, 0, 786458, 0, 65541, 786459, 0, 65541, 786460, 0, 65541, 786461, 0, 1, 786463, 0, 65542, 851968, 0, 65542, 851970, 0, 2, 851971, 0, 4, 851973, 0, 65540, 851975, 0, 65540, 851977, 0, 65536, 851978, 0, 65541, 851979, 0, 65541, 851980, 0, 65541, 851981, 0, 65541, 851982, 0, 65541, 851983, 0, 65541, 851984, 0, 65541, 851985, 0, 65541, 851986, 0, 65541, 851987, 0, 4, 851989, 0, 65538, 851991, 0, 65542, 851993, 0, 65542, 851997, 0, 65542, 851999, 0, 65542, 917504, 0, 65542, 917509, 0, 65542, 917511, 0, 65542, 917527, 0, 65542, 917529, 0, 65542, 917531, 0, 65540, 917533, 0, 65542, 917535, 0, 65542, 983040, 0, 65542, 983042, 0, 2, 983043, 0, 65541, 983044, 0, 65541, 983045, 0, 65537, 983047, 0, 65536, 983048, 0, 65541, 983049, 0, 65541, 983050, 0, 65541, 983051, 0, 65541, 983052, 0, 65541, 983053, 0, 65541, 983054, 0, 65541, 983055, 0, 65541, 983056, 0, 65541, 983057, 0, 65541, 983058, 0, 65541, 983059, 0, 4, 983061, 0, 2, 983062, 0, 65541, 983063, 0, 65537, 983065, 0, 65538, 983067, 0, 65542, 983069, 0, 65538, 983071, 0, 65542, 1048576, 0, 65542, 1048603, 0, 65542, 1048607, 0, 65542, 1114112, 0, 65536, 1114113, 0, 65541, 1114114, 0, 65541, 1114115, 0, 65541, 1114116, 0, 65541, 1114117, 0, 65541, 1114118, 0, 65541, 1114119, 0, 65541, 1114120, 0, 65541, 1114121, 0, 65541, 1114122, 0, 65541, 1114123, 0, 65541, 1114124, 0, 65541, 1114125, 0, 65541, 1114126, 0, 65541, 1114127, 0, 65541, 1114128, 0, 65541, 1114129, 0, 65541, 1114130, 0, 65541, 1114131, 0, 65541, 1114132, 0, 65541, 1114133, 0, 65541, 1114134, 0, 65541, 1114135, 0, 65541, 1114136, 0, 65541, 1114137, 0, 65541, 1114138, 0, 65541, 1114139, 0, 65539, 1114140, 0, 65541, 1114141, 0, 65541, 1114142, 0, 65541, 1114143, 0, 65537 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Capsule2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 128, 32 )
+
+[node name="Capsule3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 160, 32 )
+
+[node name="Capsule4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 192, 32 )
+
+[node name="Capsule5" parent="." instance=ExtResource( 3 )]
+position = Vector2( 224, 32 )
+
+[node name="Capsule6" parent="." instance=ExtResource( 3 )]
+position = Vector2( 256, 32 )
+
+[node name="Capsule7" parent="." instance=ExtResource( 3 )]
+position = Vector2( 288, 32 )
+
+[node name="Capsule8" parent="." instance=ExtResource( 3 )]
+position = Vector2( 320, 32 )
+
+[node name="Capsule9" parent="." instance=ExtResource( 3 )]
+position = Vector2( 320, 64 )
+
+[node name="Capsule10" parent="." instance=ExtResource( 3 )]
+position = Vector2( 320, 96 )
+
+[node name="Capsule11" parent="." instance=ExtResource( 3 )]
+position = Vector2( 320, 128 )
+
+[node name="Capsule343" parent="." instance=ExtResource( 3 )]
+position = Vector2( 576, 64 )
+
+[node name="Capsule344" parent="." instance=ExtResource( 3 )]
+position = Vector2( 576, 96 )
+
+[node name="Capsule345" parent="." instance=ExtResource( 3 )]
+position = Vector2( 576, 128 )
+
+[node name="Capsule346" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 192 )
+
+[node name="Capsule347" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 224 )
+
+[node name="Capsule348" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 256 )
+
+[node name="Capsule349" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 192 )
+
+[node name="Capsule350" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 224 )
+
+[node name="Capsule351" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 256 )
+
+[node name="Capsule352" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 352 )
+
+[node name="Capsule353" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 384 )
+
+[node name="Capsule354" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 416 )
+
+[node name="Capsule355" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 384 )
+
+[node name="Capsule356" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 416 )
+
+[node name="Capsule29" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 224 )
+
+[node name="Capsule30" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 256 )
+
+[node name="Capsule31" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 288 )
+
+[node name="Capsule32" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 320 )
+
+[node name="Capsule12" parent="." instance=ExtResource( 3 )]
+position = Vector2( 320, 160 )
+
+[node name="Capsule13" parent="." instance=ExtResource( 3 )]
+position = Vector2( 288, 160 )
+
+[node name="Capsule14" parent="." instance=ExtResource( 3 )]
+position = Vector2( 256, 160 )
+
+[node name="Capsule15" parent="." instance=ExtResource( 3 )]
+position = Vector2( 256, 192 )
+
+[node name="Capsule16" parent="." instance=ExtResource( 3 )]
+position = Vector2( 256, 224 )
+
+[node name="Capsule17" parent="." instance=ExtResource( 3 )]
+position = Vector2( 256, 224 )
+
+[node name="Capsule" parent="." instance=ExtResource( 3 )]
+position = Vector2( 96, 32 )
+
+[node name="Capsule212" parent="." instance=ExtResource( 3 )]
+position = Vector2( 64, 32 )
+
+[node name="Capsule213" parent="." instance=ExtResource( 3 )]
+position = Vector2( 128, 160 )
+
+[node name="Capsule214" parent="." instance=ExtResource( 3 )]
+position = Vector2( 160, 160 )
+
+[node name="Capsule215" parent="." instance=ExtResource( 3 )]
+position = Vector2( 192, 160 )
+
+[node name="Capsule390" parent="." instance=ExtResource( 3 )]
+position = Vector2( 192, 128 )
+
+[node name="Capsule216" parent="." instance=ExtResource( 3 )]
+position = Vector2( 96, 160 )
+
+[node name="Capsule342" parent="." instance=ExtResource( 3 )]
+position = Vector2( 96, 128 )
+
+[node name="Capsule217" parent="." instance=ExtResource( 3 )]
+position = Vector2( 64, 160 )
+
+[node name="Capsule218" parent="." instance=ExtResource( 3 )]
+position = Vector2( 128, 224 )
+
+[node name="Capsule219" parent="." instance=ExtResource( 3 )]
+position = Vector2( 160, 224 )
+
+[node name="Capsule220" parent="." instance=ExtResource( 3 )]
+position = Vector2( 192, 224 )
+
+[node name="Capsule389" parent="." instance=ExtResource( 3 )]
+position = Vector2( 192, 192 )
+
+[node name="Capsule221" parent="." instance=ExtResource( 3 )]
+position = Vector2( 96, 224 )
+
+[node name="Capsule222" parent="." instance=ExtResource( 3 )]
+position = Vector2( 64, 224 )
+
+[node name="Capsule223" parent="." instance=ExtResource( 3 )]
+position = Vector2( 128, 320 )
+
+[node name="Capsule224" parent="." instance=ExtResource( 3 )]
+position = Vector2( 160, 320 )
+
+[node name="Capsule225" parent="." instance=ExtResource( 3 )]
+position = Vector2( 192, 320 )
+
+[node name="Capsule322" parent="." instance=ExtResource( 3 )]
+position = Vector2( 224, 320 )
+
+[node name="Capsule323" parent="." instance=ExtResource( 3 )]
+position = Vector2( 256, 320 )
+
+[node name="Capsule226" parent="." instance=ExtResource( 3 )]
+position = Vector2( 96, 320 )
+
+[node name="Capsule227" parent="." instance=ExtResource( 3 )]
+position = Vector2( 64, 320 )
+
+[node name="Capsule228" parent="." instance=ExtResource( 3 )]
+position = Vector2( 192, 384 )
+
+[node name="Capsule388" parent="." instance=ExtResource( 3 )]
+position = Vector2( 192, 352 )
+
+[node name="Capsule229" parent="." instance=ExtResource( 3 )]
+position = Vector2( 224, 384 )
+
+[node name="Capsule230" parent="." instance=ExtResource( 3 )]
+position = Vector2( 256, 384 )
+
+[node name="Capsule231" parent="." instance=ExtResource( 3 )]
+position = Vector2( 160, 384 )
+
+[node name="Capsule232" parent="." instance=ExtResource( 3 )]
+position = Vector2( 128, 384 )
+
+[node name="Capsule233" parent="." instance=ExtResource( 3 )]
+position = Vector2( 96, 384 )
+
+[node name="Capsule234" parent="." instance=ExtResource( 3 )]
+position = Vector2( 64, 384 )
+
+[node name="Capsule235" parent="." instance=ExtResource( 3 )]
+position = Vector2( 128, 448 )
+
+[node name="Capsule341" parent="." instance=ExtResource( 3 )]
+position = Vector2( 128, 416 )
+
+[node name="Capsule236" parent="." instance=ExtResource( 3 )]
+position = Vector2( 96, 448 )
+
+[node name="Capsule237" parent="." instance=ExtResource( 3 )]
+position = Vector2( 64, 448 )
+
+[node name="Capsule33" parent="." instance=ExtResource( 3 )]
+position = Vector2( 384, 32 )
+
+[node name="Capsule34" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 32 )
+
+[node name="Capsule35" parent="." instance=ExtResource( 3 )]
+position = Vector2( 448, 32 )
+
+[node name="Capsule36" parent="." instance=ExtResource( 3 )]
+position = Vector2( 480, 32 )
+
+[node name="Capsule37" parent="." instance=ExtResource( 3 )]
+position = Vector2( 512, 32 )
+
+[node name="Capsule38" parent="." instance=ExtResource( 3 )]
+position = Vector2( 544, 32 )
+
+[node name="Capsule39" parent="." instance=ExtResource( 3 )]
+position = Vector2( 576, 32 )
+
+[node name="Capsule40" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 32 )
+
+[node name="Capsule41" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 32 )
+
+[node name="Capsule42" parent="." instance=ExtResource( 3 )]
+position = Vector2( 672, 32 )
+
+[node name="Capsule43" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 32 )
+
+[node name="Capsule44" parent="." instance=ExtResource( 3 )]
+position = Vector2( 736, 32 )
+
+[node name="Capsule45" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 32 )
+
+[node name="Capsule46" parent="." instance=ExtResource( 3 )]
+position = Vector2( 800, 32 )
+
+[node name="Capsule47" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 32 )
+
+[node name="Capsule49" parent="." instance=ExtResource( 3 )]
+position = Vector2( 864, 32 )
+
+[node name="Capsule50" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 32 )
+
+[node name="Capsule51" parent="." instance=ExtResource( 3 )]
+position = Vector2( 928, 32 )
+
+[node name="Capsule48" parent="." instance=ExtResource( 3 )]
+position = Vector2( 608, 32 )
+
+[node name="Capsule52" parent="." instance=ExtResource( 3 )]
+position = Vector2( 384, 32 )
+
+[node name="Capsule53" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 32 )
+
+[node name="Capsule54" parent="." instance=ExtResource( 3 )]
+position = Vector2( 448, 32 )
+
+[node name="Capsule55" parent="." instance=ExtResource( 3 )]
+position = Vector2( 480, 32 )
+
+[node name="Capsule56" parent="." instance=ExtResource( 3 )]
+position = Vector2( 512, 32 )
+
+[node name="Capsule57" parent="." instance=ExtResource( 3 )]
+position = Vector2( 544, 32 )
+
+[node name="Capsule58" parent="." instance=ExtResource( 3 )]
+position = Vector2( 576, 32 )
+
+[node name="Capsule59" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 32 )
+
+[node name="Capsule60" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 32 )
+
+[node name="Capsule61" parent="." instance=ExtResource( 3 )]
+position = Vector2( 672, 32 )
+
+[node name="Capsule62" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 32 )
+
+[node name="Capsule63" parent="." instance=ExtResource( 3 )]
+position = Vector2( 736, 32 )
+
+[node name="Capsule64" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 32 )
+
+[node name="Capsule65" parent="." instance=ExtResource( 3 )]
+position = Vector2( 800, 32 )
+
+[node name="Capsule66" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 32 )
+
+[node name="Capsule67" parent="." instance=ExtResource( 3 )]
+position = Vector2( 864, 32 )
+
+[node name="Capsule68" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 32 )
+
+[node name="Capsule69" parent="." instance=ExtResource( 3 )]
+position = Vector2( 608, 32 )
+
+[node name="Capsule70" parent="." instance=ExtResource( 3 )]
+position = Vector2( 384, 160 )
+
+[node name="Capsule71" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 160 )
+
+[node name="Capsule72" parent="." instance=ExtResource( 3 )]
+position = Vector2( 448, 160 )
+
+[node name="Capsule73" parent="." instance=ExtResource( 3 )]
+position = Vector2( 480, 160 )
+
+[node name="Capsule74" parent="." instance=ExtResource( 3 )]
+position = Vector2( 512, 160 )
+
+[node name="Capsule75" parent="." instance=ExtResource( 3 )]
+position = Vector2( 544, 160 )
+
+[node name="Capsule76" parent="." instance=ExtResource( 3 )]
+position = Vector2( 576, 160 )
+
+[node name="Capsule77" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 160 )
+
+[node name="Capsule78" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 160 )
+
+[node name="Capsule79" parent="." instance=ExtResource( 3 )]
+position = Vector2( 672, 160 )
+
+[node name="Capsule80" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 160 )
+
+[node name="Capsule81" parent="." instance=ExtResource( 3 )]
+position = Vector2( 736, 160 )
+
+[node name="Capsule82" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 160 )
+
+[node name="Capsule83" parent="." instance=ExtResource( 3 )]
+position = Vector2( 800, 160 )
+
+[node name="Capsule84" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 160 )
+
+[node name="Capsule85" parent="." instance=ExtResource( 3 )]
+position = Vector2( 864, 160 )
+
+[node name="Capsule86" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 160 )
+
+[node name="Capsule87" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 128 )
+
+[node name="Capsule88" parent="." instance=ExtResource( 3 )]
+position = Vector2( 608, 160 )
+
+[node name="Capsule89" parent="." instance=ExtResource( 3 )]
+position = Vector2( 384, 160 )
+
+[node name="Capsule90" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 160 )
+
+[node name="Capsule91" parent="." instance=ExtResource( 3 )]
+position = Vector2( 448, 160 )
+
+[node name="Capsule92" parent="." instance=ExtResource( 3 )]
+position = Vector2( 480, 160 )
+
+[node name="Capsule93" parent="." instance=ExtResource( 3 )]
+position = Vector2( 512, 160 )
+
+[node name="Capsule94" parent="." instance=ExtResource( 3 )]
+position = Vector2( 544, 160 )
+
+[node name="Capsule95" parent="." instance=ExtResource( 3 )]
+position = Vector2( 576, 160 )
+
+[node name="Capsule96" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 160 )
+
+[node name="Capsule97" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 160 )
+
+[node name="Capsule98" parent="." instance=ExtResource( 3 )]
+position = Vector2( 672, 160 )
+
+[node name="Capsule99" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 160 )
+
+[node name="Capsule100" parent="." instance=ExtResource( 3 )]
+position = Vector2( 736, 160 )
+
+[node name="Capsule101" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 160 )
+
+[node name="Capsule102" parent="." instance=ExtResource( 3 )]
+position = Vector2( 800, 160 )
+
+[node name="Capsule103" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 160 )
+
+[node name="Capsule174" parent="." instance=ExtResource( 3 )]
+position = Vector2( 736, 512 )
+
+[node name="Capsule175" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 512 )
+
+[node name="Capsule176" parent="." instance=ExtResource( 3 )]
+position = Vector2( 800, 512 )
+
+[node name="Capsule177" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 512 )
+
+[node name="Capsule178" parent="." instance=ExtResource( 3 )]
+position = Vector2( 736, 512 )
+
+[node name="Capsule179" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 512 )
+
+[node name="Capsule180" parent="." instance=ExtResource( 3 )]
+position = Vector2( 800, 512 )
+
+[node name="Capsule181" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 512 )
+
+[node name="Capsule104" parent="." instance=ExtResource( 3 )]
+position = Vector2( 864, 160 )
+
+[node name="Capsule105" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 160 )
+
+[node name="Capsule107" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 96 )
+
+[node name="Capsule108" parent="." instance=ExtResource( 3 )]
+position = Vector2( 672, 96 )
+
+[node name="Capsule109" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 96 )
+
+[node name="Capsule110" parent="." instance=ExtResource( 3 )]
+position = Vector2( 736, 96 )
+
+[node name="Capsule111" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 96 )
+
+[node name="Capsule112" parent="." instance=ExtResource( 3 )]
+position = Vector2( 800, 96 )
+
+[node name="Capsule113" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 96 )
+
+[node name="Capsule114" parent="." instance=ExtResource( 3 )]
+position = Vector2( 864, 96 )
+
+[node name="Capsule115" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 96 )
+
+[node name="Capsule116" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 96 )
+
+[node name="Capsule117" parent="." instance=ExtResource( 3 )]
+position = Vector2( 672, 96 )
+
+[node name="Capsule118" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 96 )
+
+[node name="Capsule119" parent="." instance=ExtResource( 3 )]
+position = Vector2( 736, 96 )
+
+[node name="Capsule120" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 96 )
+
+[node name="Capsule121" parent="." instance=ExtResource( 3 )]
+position = Vector2( 800, 96 )
+
+[node name="Capsule122" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 96 )
+
+[node name="Capsule123" parent="." instance=ExtResource( 3 )]
+position = Vector2( 864, 96 )
+
+[node name="Capsule124" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 96 )
+
+[node name="Capsule106" parent="." instance=ExtResource( 3 )]
+position = Vector2( 608, 160 )
+
+[node name="Capsule135" parent="." instance=ExtResource( 3 )]
+position = Vector2( 128, 512 )
+
+[node name="Capsule136" parent="." instance=ExtResource( 3 )]
+position = Vector2( 96, 512 )
+
+[node name="Capsule137" parent="." instance=ExtResource( 3 )]
+position = Vector2( 64, 512 )
+
+[node name="Capsule138" parent="." instance=ExtResource( 3 )]
+position = Vector2( 192, 512 )
+
+[node name="Capsule139" parent="." instance=ExtResource( 3 )]
+position = Vector2( 224, 512 )
+
+[node name="Capsule140" parent="." instance=ExtResource( 3 )]
+position = Vector2( 256, 512 )
+
+[node name="Capsule141" parent="." instance=ExtResource( 3 )]
+position = Vector2( 288, 512 )
+
+[node name="Capsule142" parent="." instance=ExtResource( 3 )]
+position = Vector2( 320, 512 )
+
+[node name="Capsule143" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 512 )
+
+[node name="Capsule144" parent="." instance=ExtResource( 3 )]
+position = Vector2( 384, 512 )
+
+[node name="Capsule145" parent="." instance=ExtResource( 3 )]
+position = Vector2( 160, 512 )
+
+[node name="Capsule146" parent="." instance=ExtResource( 3 )]
+position = Vector2( 448, 512 )
+
+[node name="Capsule147" parent="." instance=ExtResource( 3 )]
+position = Vector2( 480, 512 )
+
+[node name="Capsule148" parent="." instance=ExtResource( 3 )]
+position = Vector2( 512, 512 )
+
+[node name="Capsule149" parent="." instance=ExtResource( 3 )]
+position = Vector2( 544, 512 )
+
+[node name="Capsule150" parent="." instance=ExtResource( 3 )]
+position = Vector2( 576, 512 )
+
+[node name="Capsule151" parent="." instance=ExtResource( 3 )]
+position = Vector2( 608, 512 )
+
+[node name="Capsule152" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 512 )
+
+[node name="Capsule153" parent="." instance=ExtResource( 3 )]
+position = Vector2( 672, 512 )
+
+[node name="Capsule154" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 512 )
+
+[node name="Capsule155" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 512 )
+
+[node name="Capsule156" parent="." instance=ExtResource( 3 )]
+position = Vector2( 192, 512 )
+
+[node name="Capsule157" parent="." instance=ExtResource( 3 )]
+position = Vector2( 224, 512 )
+
+[node name="Capsule158" parent="." instance=ExtResource( 3 )]
+position = Vector2( 256, 512 )
+
+[node name="Capsule159" parent="." instance=ExtResource( 3 )]
+position = Vector2( 288, 512 )
+
+[node name="Capsule160" parent="." instance=ExtResource( 3 )]
+position = Vector2( 320, 512 )
+
+[node name="Capsule161" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 512 )
+
+[node name="Capsule162" parent="." instance=ExtResource( 3 )]
+position = Vector2( 384, 512 )
+
+[node name="Capsule163" parent="." instance=ExtResource( 3 )]
+position = Vector2( 160, 512 )
+
+[node name="Capsule164" parent="." instance=ExtResource( 3 )]
+position = Vector2( 448, 512 )
+
+[node name="Capsule165" parent="." instance=ExtResource( 3 )]
+position = Vector2( 480, 512 )
+
+[node name="Capsule166" parent="." instance=ExtResource( 3 )]
+position = Vector2( 512, 512 )
+
+[node name="Capsule167" parent="." instance=ExtResource( 3 )]
+position = Vector2( 544, 512 )
+
+[node name="Capsule168" parent="." instance=ExtResource( 3 )]
+position = Vector2( 576, 512 )
+
+[node name="Capsule169" parent="." instance=ExtResource( 3 )]
+position = Vector2( 608, 512 )
+
+[node name="Capsule170" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 512 )
+
+[node name="Capsule171" parent="." instance=ExtResource( 3 )]
+position = Vector2( 672, 512 )
+
+[node name="Capsule172" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 512 )
+
+[node name="Capsule173" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 512 )
+
+[node name="Capsule182" parent="." instance=ExtResource( 3 )]
+position = Vector2( 256, 448 )
+
+[node name="Capsule183" parent="." instance=ExtResource( 3 )]
+position = Vector2( 288, 448 )
+
+[node name="Capsule184" parent="." instance=ExtResource( 3 )]
+position = Vector2( 320, 448 )
+
+[node name="Capsule185" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 448 )
+
+[node name="Capsule186" parent="." instance=ExtResource( 3 )]
+position = Vector2( 384, 448 )
+
+[node name="Capsule187" parent="." instance=ExtResource( 3 )]
+position = Vector2( 448, 448 )
+
+[node name="Capsule188" parent="." instance=ExtResource( 3 )]
+position = Vector2( 480, 448 )
+
+[node name="Capsule189" parent="." instance=ExtResource( 3 )]
+position = Vector2( 512, 448 )
+
+[node name="Capsule190" parent="." instance=ExtResource( 3 )]
+position = Vector2( 544, 448 )
+
+[node name="Capsule191" parent="." instance=ExtResource( 3 )]
+position = Vector2( 576, 448 )
+
+[node name="Capsule192" parent="." instance=ExtResource( 3 )]
+position = Vector2( 608, 448 )
+
+[node name="Capsule193" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 448 )
+
+[node name="Capsule194" parent="." instance=ExtResource( 3 )]
+position = Vector2( 672, 448 )
+
+[node name="Capsule195" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 448 )
+
+[node name="Capsule196" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 448 )
+
+[node name="Capsule197" parent="." instance=ExtResource( 3 )]
+position = Vector2( 256, 448 )
+
+[node name="Capsule321" parent="." instance=ExtResource( 3 )]
+position = Vector2( 256, 416 )
+
+[node name="Capsule320" parent="." instance=ExtResource( 3 )]
+position = Vector2( 192, 480 )
+
+[node name="Capsule198" parent="." instance=ExtResource( 3 )]
+position = Vector2( 288, 448 )
+
+[node name="Capsule199" parent="." instance=ExtResource( 3 )]
+position = Vector2( 320, 448 )
+
+[node name="Capsule200" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 448 )
+
+[node name="Capsule201" parent="." instance=ExtResource( 3 )]
+position = Vector2( 384, 448 )
+
+[node name="Capsule202" parent="." instance=ExtResource( 3 )]
+position = Vector2( 448, 448 )
+
+[node name="Capsule203" parent="." instance=ExtResource( 3 )]
+position = Vector2( 480, 448 )
+
+[node name="Capsule204" parent="." instance=ExtResource( 3 )]
+position = Vector2( 512, 448 )
+
+[node name="Capsule205" parent="." instance=ExtResource( 3 )]
+position = Vector2( 544, 448 )
+
+[node name="Capsule206" parent="." instance=ExtResource( 3 )]
+position = Vector2( 576, 448 )
+
+[node name="Capsule207" parent="." instance=ExtResource( 3 )]
+position = Vector2( 608, 448 )
+
+[node name="Capsule208" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 448 )
+
+[node name="Capsule358" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 384 )
+
+[node name="Capsule359" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 416 )
+
+[node name="Capsule360" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 448 )
+
+[node name="Capsule361" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 480 )
+
+[node name="Capsule362" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 480 )
+
+[node name="Capsule363" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 448 )
+
+[node name="Capsule364" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 480 )
+
+[node name="Capsule365" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 480 )
+
+[node name="Capsule366" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 448 )
+
+[node name="Capsule367" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 480 )
+
+[node name="Capsule368" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 480 )
+
+[node name="Capsule369" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 448 )
+
+[node name="Capsule370" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 480 )
+
+[node name="Capsule371" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 480 )
+
+[node name="Capsule357" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 480 )
+
+[node name="Capsule209" parent="." instance=ExtResource( 3 )]
+position = Vector2( 672, 448 )
+
+[node name="Capsule210" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 448 )
+
+[node name="Capsule238" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 352 )
+
+[node name="Capsule239" parent="." instance=ExtResource( 3 )]
+position = Vector2( 736, 352 )
+
+[node name="Capsule240" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 352 )
+
+[node name="Capsule241" parent="." instance=ExtResource( 3 )]
+position = Vector2( 800, 352 )
+
+[node name="Capsule242" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 352 )
+
+[node name="Capsule243" parent="." instance=ExtResource( 3 )]
+position = Vector2( 864, 352 )
+
+[node name="Capsule244" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 352 )
+
+[node name="Capsule245" parent="." instance=ExtResource( 3 )]
+position = Vector2( 736, 352 )
+
+[node name="Capsule246" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 352 )
+
+[node name="Capsule247" parent="." instance=ExtResource( 3 )]
+position = Vector2( 800, 352 )
+
+[node name="Capsule248" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 352 )
+
+[node name="Capsule249" parent="." instance=ExtResource( 3 )]
+position = Vector2( 864, 352 )
+
+[node name="Capsule250" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 352 )
+
+[node name="Capsule251" parent="." instance=ExtResource( 3 )]
+position = Vector2( 928, 352 )
+
+[node name="Capsule252" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 352 )
+
+[node name="Capsule253" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 352 )
+
+[node name="Capsule262" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 288 )
+
+[node name="Capsule263" parent="." instance=ExtResource( 3 )]
+position = Vector2( 864, 288 )
+
+[node name="Capsule264" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 288 )
+
+[node name="Capsule391" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 320 )
+
+[node name="Capsule392" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 256 )
+
+[node name="Capsule265" parent="." instance=ExtResource( 3 )]
+position = Vector2( 864, 288 )
+
+[node name="Capsule266" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 288 )
+
+[node name="Capsule267" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 288 )
+
+[node name="Capsule268" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 224 )
+
+[node name="Capsule269" parent="." instance=ExtResource( 3 )]
+position = Vector2( 864, 224 )
+
+[node name="Capsule270" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 224 )
+
+[node name="Capsule271" parent="." instance=ExtResource( 3 )]
+position = Vector2( 864, 224 )
+
+[node name="Capsule272" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 224 )
+
+[node name="Capsule273" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 224 )
+
+[node name="Capsule274" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 288 )
+
+[node name="Capsule275" parent="." instance=ExtResource( 3 )]
+position = Vector2( 736, 288 )
+
+[node name="Capsule276" parent="." instance=ExtResource( 3 )]
+position = Vector2( 704, 288 )
+
+[node name="Capsule277" parent="." instance=ExtResource( 3 )]
+position = Vector2( 736, 288 )
+
+[node name="Capsule278" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 288 )
+
+[node name="Capsule279" parent="." instance=ExtResource( 3 )]
+position = Vector2( 768, 288 )
+
+[node name="Capsule256" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 416 )
+
+[node name="Capsule257" parent="." instance=ExtResource( 3 )]
+position = Vector2( 864, 416 )
+
+[node name="Capsule258" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 416 )
+
+[node name="Capsule259" parent="." instance=ExtResource( 3 )]
+position = Vector2( 864, 416 )
+
+[node name="Capsule260" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 416 )
+
+[node name="Capsule261" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 416 )
+
+[node name="Capsule254" parent="." instance=ExtResource( 3 )]
+position = Vector2( 928, 352 )
+
+[node name="Capsule255" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 352 )
+
+[node name="Capsule211" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 448 )
+
+[node name="Capsule18" parent="." instance=ExtResource( 3 )]
+position = Vector2( 320, 224 )
+
+[node name="Capsule19" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 224 )
+
+[node name="Capsule20" parent="." instance=ExtResource( 3 )]
+position = Vector2( 384, 224 )
+
+[node name="Capsule21" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 224 )
+
+[node name="Capsule22" parent="." instance=ExtResource( 3 )]
+position = Vector2( 448, 224 )
+
+[node name="Capsule23" parent="." instance=ExtResource( 3 )]
+position = Vector2( 480, 224 )
+
+[node name="Capsule25" parent="." instance=ExtResource( 3 )]
+position = Vector2( 512, 224 )
+
+[node name="Capsule26" parent="." instance=ExtResource( 3 )]
+position = Vector2( 544, 224 )
+
+[node name="Capsule27" parent="." instance=ExtResource( 3 )]
+position = Vector2( 576, 224 )
+
+[node name="Capsule280" parent="." instance=ExtResource( 3 )]
+position = Vector2( 544, 288 )
+
+[node name="Capsule283" parent="." instance=ExtResource( 3 )]
+position = Vector2( 512, 288 )
+
+[node name="Capsule284" parent="." instance=ExtResource( 3 )]
+position = Vector2( 448, 288 )
+
+[node name="Capsule285" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 288 )
+
+[node name="Capsule286" parent="." instance=ExtResource( 3 )]
+position = Vector2( 384, 288 )
+
+[node name="Capsule287" parent="." instance=ExtResource( 3 )]
+position = Vector2( 256, 96 )
+
+[node name="Capsule288" parent="." instance=ExtResource( 3 )]
+position = Vector2( 224, 96 )
+
+[node name="Capsule289" parent="." instance=ExtResource( 3 )]
+position = Vector2( 192, 96 )
+
+[node name="Capsule290" parent="." instance=ExtResource( 3 )]
+position = Vector2( 160, 96 )
+
+[node name="Capsule291" parent="." instance=ExtResource( 3 )]
+position = Vector2( 96, 96 )
+
+[node name="Capsule292" parent="." instance=ExtResource( 3 )]
+position = Vector2( 128, 96 )
+
+[node name="Capsule293" parent="." instance=ExtResource( 3 )]
+position = Vector2( 384, 96 )
+
+[node name="Capsule294" parent="." instance=ExtResource( 3 )]
+position = Vector2( 512, 96 )
+
+[node name="Capsule295" parent="." instance=ExtResource( 3 )]
+position = Vector2( 480, 96 )
+
+[node name="Capsule296" parent="." instance=ExtResource( 3 )]
+position = Vector2( 448, 96 )
+
+[node name="Capsule297" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 96 )
+
+[node name="Capsule298" parent="." instance=ExtResource( 3 )]
+position = Vector2( 384, 128 )
+
+[node name="Capsule299" parent="." instance=ExtResource( 3 )]
+position = Vector2( 512, 128 )
+
+[node name="Capsule300" parent="." instance=ExtResource( 3 )]
+position = Vector2( 448, 320 )
+
+[node name="Capsule301" parent="." instance=ExtResource( 3 )]
+position = Vector2( 480, 320 )
+
+[node name="Capsule302" parent="." instance=ExtResource( 3 )]
+position = Vector2( 512, 320 )
+
+[node name="Capsule303" parent="." instance=ExtResource( 3 )]
+position = Vector2( 576, 320 )
+
+[node name="Capsule304" parent="." instance=ExtResource( 3 )]
+position = Vector2( 384, 320 )
+
+[node name="Capsule305" parent="." instance=ExtResource( 3 )]
+position = Vector2( 384, 352 )
+
+[node name="Capsule312" parent="." instance=ExtResource( 3 )]
+position = Vector2( 320, 288 )
+
+[node name="Capsule315" parent="." instance=ExtResource( 3 )]
+position = Vector2( 320, 256 )
+
+[node name="Capsule324" parent="." instance=ExtResource( 3 )]
+position = Vector2( 256, 288 )
+
+[node name="Capsule325" parent="." instance=ExtResource( 3 )]
+position = Vector2( 256, 256 )
+
+[node name="Capsule316" parent="." instance=ExtResource( 3 )]
+position = Vector2( 192, 288 )
+
+[node name="Capsule317" parent="." instance=ExtResource( 3 )]
+position = Vector2( 192, 256 )
+
+[node name="Capsule318" parent="." instance=ExtResource( 3 )]
+position = Vector2( 192, 448 )
+
+[node name="Capsule319" parent="." instance=ExtResource( 3 )]
+position = Vector2( 192, 416 )
+
+[node name="Capsule372" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 192 )
+
+[node name="Capsule373" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 320 )
+
+[node name="Capsule374" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 320 )
+
+[node name="Capsule375" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 288 )
+
+[node name="Capsule376" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 256 )
+
+[node name="Capsule378" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 480 )
+
+[node name="Capsule379" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 480 )
+
+[node name="Capsule380" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 448 )
+
+[node name="Capsule381" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 448 )
+
+[node name="Capsule382" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 416 )
+
+[node name="Capsule383" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 384 )
+
+[node name="Capsule377" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 224 )
+
+[node name="Capsule384" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 96 )
+
+[node name="Capsule387" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 64 )
+
+[node name="Capsule385" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 160 )
+
+[node name="Capsule386" parent="." instance=ExtResource( 3 )]
+position = Vector2( 960, 128 )
+
+[node name="Capsule313" parent="." instance=ExtResource( 3 )]
+position = Vector2( 320, 320 )
+
+[node name="Capsule314" parent="." instance=ExtResource( 3 )]
+position = Vector2( 320, 352 )
+
+[node name="Capsule306" parent="." instance=ExtResource( 3 )]
+position = Vector2( 128, 288 )
+
+[node name="Capsule307" parent="." instance=ExtResource( 3 )]
+position = Vector2( 96, 288 )
+
+[node name="Capsule308" parent="." instance=ExtResource( 3 )]
+position = Vector2( 928, 96 )
+
+[node name="Capsule309" parent="." instance=ExtResource( 3 )]
+position = Vector2( 832, 192 )
+
+[node name="Capsule310" parent="." instance=ExtResource( 3 )]
+position = Vector2( 896, 512 )
+
+[node name="Capsule311" parent="." instance=ExtResource( 3 )]
+position = Vector2( 928, 512 )
+
+[node name="Capsule281" parent="." instance=ExtResource( 3 )]
+position = Vector2( 576, 288 )
+
+[node name="Capsule282" parent="." instance=ExtResource( 3 )]
+position = Vector2( 608, 288 )
+
+[node name="Capsule28" parent="." instance=ExtResource( 3 )]
+position = Vector2( 608, 224 )
+
+[node name="Capsule125" parent="." instance=ExtResource( 3 )]
+position = Vector2( 320, 384 )
+
+[node name="Capsule335" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 320 )
+
+[node name="Capsule336" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 384 )
+
+[node name="Capsule337" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 352 )
+
+[node name="Capsule338" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 416 )
+
+[node name="Capsule339" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 448 )
+
+[node name="Capsule340" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 480 )
+
+[node name="Capsule126" parent="." instance=ExtResource( 3 )]
+position = Vector2( 352, 384 )
+
+[node name="Capsule127" parent="." instance=ExtResource( 3 )]
+position = Vector2( 384, 384 )
+
+[node name="Capsule128" parent="." instance=ExtResource( 3 )]
+position = Vector2( 416, 384 )
+
+[node name="Capsule129" parent="." instance=ExtResource( 3 )]
+position = Vector2( 448, 384 )
+
+[node name="Capsule130" parent="." instance=ExtResource( 3 )]
+position = Vector2( 480, 384 )
+
+[node name="Capsule131" parent="." instance=ExtResource( 3 )]
+position = Vector2( 512, 384 )
+
+[node name="Capsule132" parent="." instance=ExtResource( 3 )]
+position = Vector2( 544, 384 )
+
+[node name="Capsule133" parent="." instance=ExtResource( 3 )]
+position = Vector2( 576, 384 )
+
+[node name="Capsule134" parent="." instance=ExtResource( 3 )]
+position = Vector2( 608, 384 )
+
+[node name="Capsule24" parent="." instance=ExtResource( 3 )]
+position = Vector2( 288, 224 )
+
+[node name="Capsule326" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 288 )
+
+[node name="Capsule327" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 64 )
+
+[node name="Capsule328" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 96 )
+
+[node name="Capsule329" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 128 )
+
+[node name="Capsule330" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 128 )
+
+[node name="Capsule331" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 224 )
+
+[node name="Capsule332" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 192 )
+
+[node name="Capsule333" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 160 )
+
+[node name="Capsule334" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 256 )
+
+[node name="Chompman" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 32 )
+target_tilemap = NodePath("../TileMap")
+
+[node name="Ghost" parent="." instance=ExtResource( 4 )]
+position = Vector2( 960, 512 )
+target_tilemap = NodePath("../TileMap")
+target_chompman = NodePath("../Chompman")
+scatter_position = Vector2( 30, 16 )
+color = Color( 0.945098, 0.0705882, 0.0705882, 1 )
+
+[node name="Ghost2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 960, 32 )
+target_tilemap = NodePath("../TileMap")
+target_chompman = NodePath("../Chompman")
+scatter_position = Vector2( 30, 1 )
+color = Color( 0.0705882, 0.227451, 0.945098, 1 )
+
+[node name="Ghost3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 32, 512 )
+target_tilemap = NodePath("../TileMap")
+target_chompman = NodePath("../Chompman")
+scatter_position = Vector2( 1, 16 )
+color = Color( 0.0705882, 0.945098, 0.0823529, 1 )
